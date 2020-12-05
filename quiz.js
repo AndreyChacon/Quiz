@@ -11,4 +11,13 @@ switch (TipoMotor) {
 
 
 
+var Producto  = 2;
+switch (Producto) {
+    case 1: alert('El valor sin impuestos más el 21%' ); break;
+    case 2: alert('El valor sin impuestos más el 10%' ); break;
+    case 3: alert('El valor sin impuestos más el 5%'); break;
+    default: alert('No existe un valor válido para tipo de Producto');
+}
+
+
 
